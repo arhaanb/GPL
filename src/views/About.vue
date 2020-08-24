@@ -8,13 +8,13 @@
         <table>
           <tbody>
           <tr>
-            <th>Team 1 vs Team 2</th>
-            <th>8:00 PM</th>
+            <th>Jetha Ke Jaanbaaz VS Mehta Ke Marathi</th>
+            <th>4:00 PM</th>
             <th>Match 1</th>
           </tr>
-          <th>Team 1 vs Team 2</th>
+          <th>Blaster Babita VS Daya Dandiya Devils</th>
           <th>8:00 PM</th>
-          <th>Match 1</th>
+          <th>Match 2</th>
           </tbody>
         </table>
       </div>
@@ -22,18 +22,18 @@
     <div class="card_a">
       <div class="card1">
         <h1>
-          <b>August 1</b>
+          <b>August 2</b>
         </h1>
         <table>
           <tbody>
           <tr>
-            <th>Team 1 vs Team 2</th>
-            <th>8:00 PM</th>
-            <th>Match 1</th>
+            <th>Jetha Ke Jaanbaaz VS Daya Dandiya Devils</th>
+            <th>4:00 PM</th>
+            <th>Match 3</th>
           </tr>
-          <th>Team 1 vs Team 2</th>
+          <th>Blaster Babita VS Mehta Ke Marathi</th>
           <th>8:00 PM</th>
-          <th>Match 1</th>
+          <th>Match 4</th>
           </tbody>
         </table>
       </div>
@@ -41,18 +41,18 @@
     <div class="card_a">
       <div class="card1">
         <h1>
-          <b>August 1</b>
+          <b>August 3</b>
         </h1>
         <table>
           <tbody>
           <tr>
-            <th>Team 1 vs Team 2</th>
-            <th>8:00 PM</th>
-            <th>Match 1</th>
+            <th>Jetha Ke Jaanbaaz VS Blaster Babita</th>
+            <th>4:00 PM</th>
+            <th>Match 5</th>
           </tr>
-          <th>Team 1 vs Team 2</th>
+          <th>Mehta Ke Marathi vs Daya Dandiya Devils</th>
           <th>8:00 PM</th>
-          <th>Match 1</th>
+          <th>Match 6</th>
         </tbody>
         </table>
       </div>
@@ -60,22 +60,23 @@
     <div class="card_a">
       <div class="card1">
         <h1>
-          <b>August 1</b>
+          <b>August 4</b>
         </h1>
         <table>
           <tbody>
           <tr>
-            <th>Team 1 vs Team 2</th>
-            <th>8:00 PM</th>
-            <th>Match 1</th>
+            <th>Rank 3 vs Rank 4</th>
+            <th>4:00 PM</th>
+            <th>Match 7</th>
           </tr>
-          <th>Team 1 vs Team 2</th>
+          <th>Rank 1 vs Rank 2</th>
           <th>8:00 PM</th>
-          <th>Match 1</th>
+          <th>Match 8</th>
           </tbody>
         </table>
       </div>
     </div>
+    
   </div>
 </template>
 <style scoped>
@@ -114,7 +115,7 @@ td {
 }
 
 .card_a:hover {
-  box-shadow: 3px 10px 8px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 18px 8px 6px rgba(0, 0, 0, 0.2);
 }
 
 .card1 {

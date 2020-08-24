@@ -5,21 +5,23 @@
         <div class="left_box_inside"> <h2>  <span class="dot"></span> Live</h2>
         <table>
           <tr> 
-            <th>Jetha Ke Jaanbaaz</th>
+          <th> Jetha Ke Jaanbaaz</th>
           <td>205/5</td>
           </tr>
-          <th>Jetha Ke Jaanbaaz</th>
-          <td>205/5</td></tr>
+          <th>Mehta Ke Marathi</th>
+          <td>205/5</td>
+          </tr>
         </table>
         </div>
         <div class="left_box_inside2"> <h3>Recent</h3>
         <table>
           <tr> 
-            <th>Jetha Ke Jaanbaaz</th>
+            <th>Blaster Babita</th>
           <td>205/5</td>
           </tr>
-          <th>Jetha Ke Jaanbaaz</th>
-          <td>205/5</td></tr>
+          <th>Dandiya Devils</th>
+          <td>205/5</td>
+          </tr>
         </table>
         </div>
                 <div class="left_box_inside2"> <h3>Upcoming</h3>
@@ -28,8 +30,9 @@
             <th>Jetha Ke Jaanbaaz</th>
           <td>205/5</td>
           </tr>
-          <th>Jetha Ke Jaanbaaz</th>
-          <td>205/5</td></tr>
+          <th>Dandiya Devils</th>
+          <td>205/5</td>
+          </tr>
         </table>
         </div>
        
@@ -290,6 +293,10 @@ tbody>tr>:nth-child(5){
   margin-top: 8%;
   padding: 2%;
   margin-left: 8%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-size: 1.5ex;
 
 }
 .right_box_inside{
@@ -308,7 +315,7 @@ tbody>tr>:nth-child(5){
   font-weight: 600;
   font-size: 1.5em;
   padding-left: 0.5em;
-  width: 5%;
+  width: 4%;
   text-align: left;
   height: 10%;
   background-color: #181c20;

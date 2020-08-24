@@ -185,4 +185,11 @@ body {
   box-shadow: none;
   background-color: #020303;
 }
+@media screen (max-width: 500px){
+  .container{
+     width: 10px;
+    flex-direction: column;
+    position: fixed;
+  }
+}
 </style>
