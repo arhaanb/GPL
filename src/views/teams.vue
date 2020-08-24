@@ -64,6 +64,7 @@
 
 .card:hover {
   transform: translateY(-4px);
+  background-color: #c7003813;
 }
 
 .lund {
