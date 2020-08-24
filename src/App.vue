@@ -56,7 +56,7 @@ body {
 	color: #fff;
 	padding: 1em;
 	margin-top: 2em;
-	background-color: rgba(255, 255, 255, 0.1);
+	/* background-color: rgba(255, 255, 255, 0.1); */
 	/* border-top: solid 1px rgba(255, 255, 255, 0.397); */
 }
 
