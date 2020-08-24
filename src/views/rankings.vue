@@ -106,50 +106,52 @@
     </div>
 
     <div class="flex-center">
-      <div class="cardsd">
-        <div class="cardlol">
-          <h1>🔥</h1>
-          <h5>Jetha Ke Jaanbaaz</h5>
-          <div class="center">
-            <p>wins 2</p>
-            <p>losses 3</p>
-            <p>points 3</p>
+      <div class="grid">
+        <div class="cardsd">
+          <div class="cardlol">
+            <h1>🔥</h1>
+            <h5>Jetha Ke Jaanbaaz</h5>
+            <div class="center">
+              <p>wins 2</p>
+              <p>losses 3</p>
+              <p>points 3</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cardsd">
-        <div class="cardlol">
-          <h1>🥵</h1>
-          <h5>Blaster Babita</h5>
-          <div class="center">
-            <p>wins 2</p>
-            <p>losses 3</p>
-            <p>points 3</p>
+        <div class="cardsd">
+          <div class="cardlol">
+            <h1>🥵</h1>
+            <h5>Blaster Babita</h5>
+            <div class="center">
+              <p>wins 2</p>
+              <p>losses 3</p>
+              <p>points 3</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cardsd">
-        <div class="cardlol">
-          <h1>😍</h1>
-          <h5>Mehta ke Maharathi</h5>
-          <div class="center">
-            <p>wins 2</p>
-            <p>losses 3</p>
-            <p>points 3</p>
+        <div class="cardsd">
+          <div class="cardlol">
+            <h1>😍</h1>
+            <h5>Mehta ke Maharathi</h5>
+            <div class="center">
+              <p>wins 2</p>
+              <p>losses 3</p>
+              <p>points 3</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cardsd">
-        <div class="cardlol">
-          <h1>😳</h1>
-          <h5>Daya Dandiya Devils</h5>
-          <div class="center">
-            <p>wins 2</p>
-            <p>losses 3</p>
-            <p>points 3</p>
+        <div class="cardsd">
+          <div class="cardlol">
+            <h1>😳</h1>
+            <h5>Daya Dandiya Devils</h5>
+            <div class="center">
+              <p>wins 2</p>
+              <p>losses 3</p>
+              <p>points 3</p>
+            </div>
           </div>
         </div>
       </div>
@@ -165,14 +167,15 @@
   padding: 2em;
   margin-bottom: 3em;
   margin-top: 3em;
+  display: none;
 }
 
 .cardsd {
   color: #fff;
   background-color: #222;
-  width: 60%;
+  /* width: 80%; */
   border-radius: 1.3em;
-  padding: 2em;
+	padding: 2em;
 }
 
 .midbox {
@@ -182,7 +185,21 @@
 }
 
 .cardsd {
-  display: none;
+  /* display: none; */
+}
+
+.grid {
+  display: grid;
+  grid-gap: 3em;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 750px) {
+  .grid {
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .cardlol {
