@@ -3,8 +3,8 @@
      <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <div class="container">
       <h1>Gokuldham Premiere League </h1>
-      <p>The Gokuldham Premiere League is a Twenty20 cricket league<br>in Gokuldham contested during August of every year by eight<br>teams representing eight different cities in India. The league was<br>founded by the Board of Control for Cricket in India in 2008.</p>
-      <button  class="button" href="https://dribbble.com/shots/4535669-Sweep-Shot">Buy Tickets</button>
+      <p>The Gokuldham Premiere League is a Twenty20 cricket league<br>in Gokuldham contested during August of every year by four<br>teams representing four different buildings in Gokuldham. It operates <br>on a system of promotion and relegation.</p>
+      <button  class="button" >Buy Tickets</button>
       <div class="batsmen"> <img src="https://cdn.discordapp.com/attachments/747002666827382818/747450754565931038/batsmen.png" alt=""></div>
      
     </div>
@@ -79,6 +79,18 @@
 @media (max-width: 500px) {
 .button{
      width: 20%;
+  }
+.batsmen  {
+ margin-left: -10%;
+ margin-top: -10%;
+}
+}
+@media (max-width: 400px) {
+.container h1{
+  font-size: 4em;
+  }
+.button{
+     width: 40%;
   }
 .batsmen  {
  margin-left: -10%;

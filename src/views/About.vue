@@ -144,4 +144,18 @@ tbody>th>:nth-child(2){
     padding-bottom: 10git add 0%;
   }
 }
+@media (max-width: 400px) {
+  h2 {
+    text-align: center;
+    margin-left: 3%;
+  }
+  .card_a {
+    margin-left: 5%;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .card1 {
+    padding-bottom: 3%;
+  }
+}
 </style>
