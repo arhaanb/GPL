@@ -4,7 +4,11 @@
       <div id="nav">
         <div class="logo">
           <router-link to="/">
-            <img src="https://cdn.discordapp.com/attachments/746757291973410938/747340957082583080/unknown.png" alt="Cura" class="cura" />
+            <img
+              src="https://cdn.discordapp.com/attachments/746757291973410938/747340957082583080/unknown.png"
+              alt="Cura"
+              class="cura"
+            />
           </router-link>
         </div>
         <div class="right">
@@ -27,10 +31,8 @@
   margin: 0;
 }
 html,
-body{
-
-  background-color: #23292F;
-
+body {
+  background-color: #23292f;
 }
 
 div#app {
@@ -39,8 +41,8 @@ div#app {
   height: 100%;
   text-emphasis: bold;
   font-family: europa, sans-serif;
-font-style: normal;
-font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
 }
 
 ::-moz-selection {
@@ -50,7 +52,7 @@ font-weight: 700;
 
 ::selection {
   color: white;
-  background:#020303;
+  background: #020303;
 }
 
 img,
@@ -92,14 +94,12 @@ br {
   align-items: center;
   padding: 0;
   margin-top: 0em;
-  
 }
 
 #nav .right a {
   margin-left: 1em;
   text-decoration: none;
   font-size: 1.2em;
-
 }
 
 #nav a {
@@ -108,7 +108,7 @@ br {
 }
 
 #nav a.router-link-exact-active {
-  color:#FAF0E6;
+  color: #faf0e6;
 }
 
 .right {
@@ -117,7 +117,5 @@ br {
 
 .cura {
   width: 8em;
-  
 }
-
 </style>
