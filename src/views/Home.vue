@@ -42,12 +42,47 @@
    font-size: 1.3em;
 }
 .button{
-  color: aqua;
-  padding: 1%;
+  border: 0;
+  background: none;
+  display: block;
+
+  border: 1px solid white;
+
+  outline: none;
+  border-radius: 10px;
+  transition: 0.1s;
+  cursor: pointer;
+  height: 38px;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #0d1012;
+  color: #fff;
+  border: none;
+  transform: translateY(-4px);
+  transition: 0.5s;
+  margin-top: 2%;
+  width: 10%;
+  text-align: center;
+  margin-left: 5%;
+}
+.button:hover{
+   transform: translateY(0px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background-color: #020303;
 }
 .batsmen  {
  margin-left: 55%;
  margin-top: -12.5%;
 }
-
+@media (max-width: 500px) {
+.button{
+     width: 20%;
+  }
+.batsmen  {
+ margin-left: -10%;
+ margin-top: -10%;
+}
+}
 </style>

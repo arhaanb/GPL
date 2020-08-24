@@ -6,6 +6,7 @@
           <b>August 1</b>
         </h1>
         <table>
+          <tbody>
           <tr>
             <th>Team 1 vs Team 2</th>
             <th>8:00 PM</th>
@@ -14,6 +15,7 @@
           <th>Team 1 vs Team 2</th>
           <th>8:00 PM</th>
           <th>Match 1</th>
+          </tbody>
         </table>
       </div>
     </div>
@@ -23,6 +25,7 @@
           <b>August 1</b>
         </h1>
         <table>
+          <tbody>
           <tr>
             <th>Team 1 vs Team 2</th>
             <th>8:00 PM</th>
@@ -31,6 +34,7 @@
           <th>Team 1 vs Team 2</th>
           <th>8:00 PM</th>
           <th>Match 1</th>
+          </tbody>
         </table>
       </div>
     </div>
@@ -40,6 +44,7 @@
           <b>August 1</b>
         </h1>
         <table>
+          <tbody>
           <tr>
             <th>Team 1 vs Team 2</th>
             <th>8:00 PM</th>
@@ -48,6 +53,7 @@
           <th>Team 1 vs Team 2</th>
           <th>8:00 PM</th>
           <th>Match 1</th>
+        </tbody>
         </table>
       </div>
     </div>
@@ -57,6 +63,7 @@
           <b>August 1</b>
         </h1>
         <table>
+          <tbody>
           <tr>
             <th>Team 1 vs Team 2</th>
             <th>8:00 PM</th>
@@ -65,6 +72,7 @@
           <th>Team 1 vs Team 2</th>
           <th>8:00 PM</th>
           <th>Match 1</th>
+          </tbody>
         </table>
       </div>
     </div>
@@ -114,6 +122,11 @@ td {
 }
 .br {
   padding-left: 200%;
+}
+tbody>th>:nth-child(2){
+  width: 5%;
+  padding: 2ex;
+  
 }
 
 @media (max-width: 500px) {

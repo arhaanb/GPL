@@ -95,12 +95,14 @@ br {
   align-items: center;
   padding: 0;
   margin-top: 0em;
+
 }
 
 #nav .right a {
   margin-left: 1em;
   text-decoration: none;
   font-size: 1.2em;
+  margin-right: 1em;
 }
 
 #nav a {
