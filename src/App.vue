@@ -142,8 +142,8 @@ button.cool:hover {
 }
 
 @media (max-width: 550px) {
-  .right {
-    display: none;
+  #nav {
+    flex-direction: column;
   }
 }
 </style>

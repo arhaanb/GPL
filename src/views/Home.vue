@@ -53,7 +53,8 @@ button.cool {
 
 @media (max-width: 550px) {
   .row.sec {
-    margin-top: 2em;
+		height: auto;
+		margin-top: 3.5em;
   }
   .textshit {
     margin-bottom: 4em;
