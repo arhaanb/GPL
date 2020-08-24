@@ -23,6 +23,10 @@
         <router-view class="router" />
       </transition>
     </main>
+    <footer class="footer center">
+      Made with
+      <span class="red">♥</span> by MINET
+    </footer>
   </div>
 </template>
 
@@ -44,6 +48,14 @@ body {
   font-style: normal;
 }
 
+.red {
+	color: #c70039;
+}
+
+.footer {
+	color: #fff;
+}
+
 ::-moz-selection {
   color: white;
   background: #c70039;
@@ -55,6 +67,7 @@ body {
 }
 
 img,
+.emoji,
 .noselect,
 button,
 br {
@@ -91,7 +104,7 @@ br {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 1em 0;
   margin-top: 0em;
 }
 
@@ -108,7 +121,7 @@ br {
 }
 
 #nav a.router-link-exact-active {
-  color: #faf0e6;
+  color: #c70039;
 }
 
 .right {
