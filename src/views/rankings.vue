@@ -163,8 +163,8 @@
   width: 60%;
   border-radius: 1.3em;
   padding: 2em;
-	margin-bottom: 3em;
-	margin-top: 3em;
+  margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .cardsd {
@@ -182,7 +182,7 @@
 }
 
 .cardsd {
-	display: none;
+  display: none;
 }
 
 .cardlol {
@@ -205,13 +205,13 @@
 @media (max-width: 550px) {
   .featured {
     display: none;
-	}
-	.cardsd {
-		display: block;
-		margin-bottom: 2em;
-	}
-	.cardsd:first-of-type {
-		margin-top: 3em;
-	}
+  }
+  .cardsd {
+    display: block;
+    margin-bottom: 2em;
+  }
+  .cardsd:first-of-type {
+    margin-top: 3em;
+  }
 }
 </style>
