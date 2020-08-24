@@ -1,100 +1,65 @@
 <template>
-  <div class="home">
-     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <div class="container">
-      <h1>Gokuldham Premiere League </h1>
-      <p>The Gokuldham Premiere League is a Twenty20 cricket league<br>in Gokuldham contested during August of every year by four<br>teams representing four different buildings in Gokuldham. It operates <br>on a system of promotion and relegation.</p>
-      <button  class="button" >Buy Tickets</button>
-      <div class="batsmen"> <img src="https://cdn.discordapp.com/attachments/747002666827382818/747450754565931038/batsmen.png" alt=""></div>
-     
+  <div class="container">
+    <div class="row sec">
+      <div>
+        <div class="seven columns textshit">
+          <h1 class="semi">Gokuldham Premiere League</h1>
+          <p>
+            The Gokuldham Premiere League is a Twenty20 cricket league
+            in Gokuldham contested during August of every year by four
+            teams representing four different buildings in Gokuldham. It operates
+            on a system of promotion and relegation.
+          </p>
+          <router-link to="/about">
+            <button class="cool">Buy Tickets</button>
+          </router-link>
+        </div>
+        <div class="five columns">
+          <img src="@/assets/bat.svg" alt class="bats" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-
 </script>
+
 <style scoped>
-.container h1{
+.bats {
+  width: 100%;
+}
+
+.row.sec {
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  height: 100%;
-
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  color: #ffffff;
-  margin-left: 3%;
-  margin-top: 5%;
-  font-size: 5em;
-}
- p{
-    display: flex;
-  flex-direction: column;
-  height: 100%;
-
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  color: #ffffff;
-  margin-left: 3%;
-  margin-top: 0%;
-   font-size: 1.3em;
-}
-.button{
-  border: 0;
-  background: none;
-  display: block;
-
-  border: 1px solid white;
-
-  outline: none;
-  border-radius: 10px;
-  transition: 0.1s;
-  cursor: pointer;
-  height: 38px;
-  font-weight: 600;
-  text-decoration: none;
-  background-color: #0d1012;
+  justify-content: center;
+  align-items: center;
   color: #fff;
-  border: none;
-  transform: translateY(-4px);
-  transition: 0.5s;
-  margin-top: 2%;
-  width: 10%;
-  text-align: center;
-  margin-left: 5%;
 }
-.button:hover{
-   transform: translateY(0px);
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  background-color: #020303;
+
+.semi {
+  font-weight: 600;
 }
-.batsmen  {
- margin-left: 55%;
- margin-top: -12.5%;
-}
-@media (max-width: 500px) {
-.button{
-     width: 20%;
-  }
-.batsmen  {
- margin-left: -10%;
- margin-top: -10%;
-}
-}
-@media (max-width: 400px) {
-.container h1{
+
+h1.semi {
   font-size: 4em;
-  }
-.button{
-     width: 40%;
-  }
-.batsmen  {
- margin-left: -10%;
- margin-top: -10%;
 }
+
+button.cool {
+  margin-top: 2em;
+}
+
+@media (max-width: 550px) {
+  .row.sec {
+    margin-top: 2em;
+  }
+  .textshit {
+    margin-bottom: 4em;
+  }
+  h1.semi {
+    font-size: 2.5em;
+  }
 }
 </style>

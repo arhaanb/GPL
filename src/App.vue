@@ -1,13 +1,12 @@
 <template>
   <div id="app">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <div class="container">
       <div id="nav">
         <div class="logo">
           <router-link to="/">
             <img
-              src="https://cdn.discordapp.com/attachments/746757291973410938/747340957082583080/unknown.png"
-              alt="Cura"
+              src="https://media.discordapp.net/attachments/746757291973410938/747527488355303506/Web_1920_1.png"
+              alt="GPL"
               class="cura"
             />
           </router-link>
@@ -36,24 +35,23 @@ body {
   background-color: #23292f;
 }
 
-div#app {
+#app {
   display: flex;
   flex-direction: column;
   height: 100%;
   text-emphasis: bold;
-  font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 700;
+  font-family: "nunito", sans-serif;
+  font-style: normal;
 }
 
 ::-moz-selection {
   color: white;
-  background: #020303;
+  background: #c70039;
 }
 
 ::selection {
   color: white;
-  background: #020303;
+  background: #c70039;
 }
 
 img,
@@ -95,7 +93,6 @@ br {
   align-items: center;
   padding: 0;
   margin-top: 0em;
-
 }
 
 #nav .right a {
@@ -120,5 +117,33 @@ br {
 
 .cura {
   width: 8em;
+}
+
+button.cool {
+  /* -webkit-box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6);
+	-moz-box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6);
+	box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6); */
+  box-shadow: 0px 8px 32px rgba(217, 56, 69, 0.6);
+  background-color: rgba(217, 56, 69, 0.8);
+  color: #fff;
+  border: none;
+  transform: translateY(-4px);
+  transition: 0.5s;
+  font-family: "nunito";
+  /* box-shadow: 30px 30px 59px #cccccc, -30px -30px 59px #ffffff; */
+}
+
+button.cool:hover {
+  transform: translateY(0px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #000;
+}
+
+@media (max-width: 550px) {
+  .right {
+    display: none;
+  }
 }
 </style>
