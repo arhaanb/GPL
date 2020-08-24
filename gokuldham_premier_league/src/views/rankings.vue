@@ -102,7 +102,9 @@
 <style scoped>
 
 .container th h1 {
-	  font-weight: bold;
+font-family: europa, sans-serif;
+font-style: normal;
+font-weight: 550;
 	  font-size: 1em;
   text-align: left;
       color: white;
@@ -110,7 +112,9 @@
 }
 
 .container td {
-	  font-weight: normal;
+font-family: europa, sans-serif;
+font-style: normal;
+font-weight: 550;
 	  font-size: 1em;
   -webkit-box-shadow: 0 2px 2px -2px #0E1119;
 	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
@@ -136,23 +140,23 @@
 
 /* Background-color of the odd rows */
 .container tr:nth-child(odd) {
-	  background-color: #240927;
+	  background-color: #181c20;
 }
 
 /* Background-color of the even rows */
 .container tr:nth-child(even) {
-	  background-color: #240927;
+	  background-color: #181c20;
 }
 
 .container th {
-	  background-color: #370e3c;
+	  background-color:#0d1012;
 
 }
 
 
 
 .container tr:hover {
-   background-color: #370e3c;
+   background-color: #0d1012;
 
 }
 

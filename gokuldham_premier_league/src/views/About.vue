@@ -97,7 +97,7 @@ th, td {
   transition: 0.3s;
   width: 70%;
   border-radius: 15px;
-  background: #240927;
+  background:	#0d1012;
   margin-bottom: 2%;
   margin-top: 3%;
   padding: 2%;
@@ -128,8 +128,7 @@ th, td {
     margin-top: 5%;
   }
   .card1{
-    padding-bottom: 10git add .%;
+    padding-bottom: 10git add 0.%;
   }
-
 }
 </style>

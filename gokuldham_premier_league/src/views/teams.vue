@@ -4,7 +4,7 @@
             <div class="face face1">
                 <div class="content">
                     <img src="https://cdn.discordapp.com/attachments/747002666827382818/747003006527995944/oie_z5v3jFre8hIr.png">
-                    <h3>Team 1</h3>
+                    <h3>Jetha Ke Jaanbaaz</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -19,7 +19,7 @@
             <div class="face face1">
                 <div class="content">
                     <img src="https://cdn.discordapp.com/attachments/747002666827382818/747003006527995944/oie_z5v3jFre8hIr.png">
-                    <h3>Team 2</h3>
+                    <h3>Mehta Ke Marathi</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -33,7 +33,7 @@
             <div class="face face1">
                 <div class="content">
                     <img src="https://cdn.discordapp.com/attachments/747002666827382818/747003006527995944/oie_z5v3jFre8hIr.png">
-                    <h3>Team 3</h3>
+                    <h3>Blaster Babita</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -47,7 +47,7 @@
             <div class="face face1">
                 <div class="content">
                     <img src="https://cdn.discordapp.com/attachments/747002666827382818/747003006527995944/oie_z5v3jFre8hIr.png">
-                    <h3>Team 4</h3>
+                    <h3>Daya Dandiya Devils</h3>
                 </div>
             </div>
             <div class="face face2">
@@ -100,7 +100,7 @@ body{
 
 .container .card .face.face1{
     position: relative;
-    background: #240927;
+    background: #0d1012;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ body{
 
 .container .card .face.face2{
     position: relative;
-  background-color: #4a1351;
+  background-color: #23292F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +169,7 @@ body{
     height: 38px;
     font-weight: 600;
     text-decoration: none;
-  background-color: #240927;
+  background-color: #0d1012;
     color: #fff;
     border: none;
     transform: translateY(-4px);
@@ -184,6 +184,6 @@ body{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-  background-color: #110413;
+  background-color: #020303;
 }
 </style>
