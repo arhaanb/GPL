@@ -110,12 +110,6 @@ table {
   margin-top: 4em;
 }
 
-@media (max-width: 550px) {
-  .card {
-    width: 80%;
-  }
-}
-
 .flex {
   display: flex;
   justify-content: space-between;
@@ -137,5 +131,17 @@ table {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 550px) {
+  .card {
+    width: 80%;
+	}
+	.emoji {
+		font-size: 2em;
+	}
+	.emocont p {
+		display: none;
+	}
 }
 </style>

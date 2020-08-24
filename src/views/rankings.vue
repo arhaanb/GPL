@@ -66,7 +66,7 @@
          
           <td>Jetha Ke Jaanbaaz</td>
 
-          <td>2</td>
+          <td>1</td>
           <td>1</td>
           <td>1</td>
           <td>1</td>
@@ -75,7 +75,7 @@
         <tr>
          
           <td>Mehta Ke Marathi</td>
-          <td>2</td>
+          <td>1</td>
           <td>1</td>
           <td>1</td>
           <td>1</td>
@@ -84,7 +84,7 @@
         <tr>
       
           <td>Blaster Babita</td>
-          <td>2</td>
+          <td>1</td>
           <td>1</td>
           <td>1</td>
           
@@ -93,7 +93,7 @@
         <tr>
       
           <td>Dandiya Devils</td>
-          <td>2</td>
+          <td>1</td>
           <td>1</td>
           <td>1</td>
           <td>1</td>
@@ -118,16 +118,15 @@
   padding: 2%;
   margin-left: 7%;
   color: white;
- font-family: "nunito", sans-serif;
+        font-family: 'Raleway', sans-serif;
   font-style: normal;
 }
 
 .left_box h1{
-   font-family: "nunito", sans-serif;
+    font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 3ex;
- 
  
 }
 .left_box_inside{
@@ -137,18 +136,16 @@
   border-radius: 15px;
   background: #23292f;
   margin-bottom: 2%;
-  margin-top: 10%;
+  margin-top: 3%;
   padding: 2%;
   margin-left: 3%;
   color: white;
 }
 .left_box_inside h2{
    margin-left: 1ex;
-    margin-top: 6%;
 }
 .left_box_inside2 h3{
    margin-left: 1ex;
-       margin-top: 6%;
 }
 
 .dot {
@@ -196,13 +193,13 @@
     text-align: right;
 }
 h3 {
- font-family: "nunito", sans-serif;
+      font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3ex;
 }
 h2 {
- font-family: "nunito", sans-serif;
+      font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 3ex;
@@ -214,11 +211,11 @@ h2 {
   border-radius: 15px;
   background: #0d1012;
   margin-bottom: 2%;
-  margin-top: -74%;
+  margin-top: -47%;
   padding: 2%;
   margin-left: 35%;
   color: white;
- font-family: "nunito", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
 }
 h4{
@@ -244,11 +241,11 @@ h4{
   width: 5%;
   text-align: left;
   height: 10%;
-  background-color: none
+  background-color: #181c20;
 
 }
 .right_box_inside td {
-  background-color: none;
+  background-color: #181c20;
  
 }
 tbody>tr>:nth-child(1){
@@ -288,25 +285,22 @@ tbody>tr>:nth-child(5){
   padding: 2%;
   margin-left: 8%;
   color: white;
-
+        font-family: 'Raleway', sans-serif;
+  font-style: normal;
 }
 .featured_match{
 
-  width: 90%;
+  width: 80%;
 
   margin-bottom: 2%;
   margin-top: 8%;
   padding: 2%;
   margin-left: 8%;
   color: white;
- font-family: "nunito", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 1.5ex;
 
-}
-.left_box h1{
-  margin-top: 3%;
-  margin-left: 3%;
 }
 .right_box_inside{
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -358,10 +352,6 @@ tbody>tr>:nth-child(5){
   padding: 2ex;
   
 }
-h4{
-    margin-top: 3%;
-  margin-left: 3%;
-}
 }
 @media (max-width: 400px) {
   .left_box {
@@ -375,7 +365,7 @@ h4{
   padding: 2%;
   margin-left: 8%;
   color: white;
- font-family: "nunito", sans-serif;
+        font-family: 'Raleway', sans-serif;
   font-style: normal;
 }
 .featured_match{
@@ -387,7 +377,7 @@ h4{
   padding: 2%;
   margin-left: 8%;
   color: white;
- font-family: "nunito", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-size: 1.5ex;
 
