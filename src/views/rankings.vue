@@ -190,8 +190,8 @@
   border-radius: 1.2em;
 }
 
-.cardsd {
-  /* display: none; */
+.cardsd:hover {
+  transform: translateY(-4px);
 }
 
 .grid {
