@@ -1,4 +1,4 @@
-# gokuldham_premier_league
+# 🏏 Gokuldham Premier League
 
 ## Project setup
 ```
