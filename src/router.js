@@ -1,4 +1,7 @@
 import Home from './views/Home.vue'
+import Matches from './views/matches.vue'
+import Rankings from './views/rankings.vue'
+import Teams from './views/teams.vue'
 
 export const routes = [
   {
@@ -7,23 +10,18 @@ export const routes = [
     component: Home,
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import('./views/About.vue'),
-  },
-  {
-    path: '/fixtures',
-    name: 'fixtures',
-    component: () => import('./views/fixtures.vue'),
+    path: '/matches',
+    name: 'Matches',
+    component: Matches,
   },
   {
     path: '/rankings',
     name: 'rankings',
-    component: () => import('./views/rankings.vue'),
+    component: Rankings,
   },
   {
     path: '/teams',
     name: 'teams',
-    component: () => import('./views/teams.vue'),
+    component: Teams,
   },
 ]

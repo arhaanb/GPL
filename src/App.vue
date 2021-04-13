@@ -8,7 +8,7 @@
           </router-link>
         </div>
         <div class="right">
-          <router-link to="/about">Matches</router-link>
+          <router-link to="/matches">Matches</router-link>
           <router-link to="/rankings">Rankings</router-link>
           <router-link to="/teams">Teams</router-link>
         </div>
