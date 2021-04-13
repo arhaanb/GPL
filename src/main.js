@@ -1,16 +1,16 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
+import { routes } from './router'
+import { createRouter, createWebHistory } from 'vue-router'
 import '@/assets/skeleton.css'
 import '@/assets/global.css'
 
+const app = createApp(App)
 
-// import 'buefy/dist/buefy.css'
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+})
 
-Vue.config.productionTip = false
-
-
-new Vue({
-	router,
-	render: h => h(App)
-}).$mount('#app')
+app.use(router)
+app.mount('#app')

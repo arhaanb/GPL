@@ -4,11 +4,7 @@
       <div id="nav">
         <div class="logo">
           <router-link to="/">
-            <img
-              src="https://media.discordapp.net/attachments/746757291973410938/747527488355303506/Web_1920_1.png"
-              alt="GPL"
-              class="cura"
-            />
+            <img src="@/assets/gpl_logo.png" alt="GPL" class="cura" />
           </router-link>
         </div>
         <div class="right">
@@ -18,19 +14,29 @@
         </div>
       </div>
     </div>
-    <main class="App__main">
-      <transition name="fade" mode="out-in">
-        <router-view class="router" />
-      </transition>
+    <main>
+      <router-view v-slot="{ Component }">
+        <transition name="fade" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
     </main>
     <footer class="footer center">
-      Made with
-      <span class="red">♥</span> by MINET
+      Made with 💖 by MINET
+      <!-- <span class="red">&hearts;</span> -->
     </footer>
   </div>
 </template>
 
 <style>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 .title.text {
   margin: 0;
 }
@@ -38,38 +44,29 @@ html,
 body {
   background-color: #23292f;
 }
-
 #app {
   display: flex;
   flex-direction: column;
   height: 100%;
   text-emphasis: bold;
-  font-family: "nunito", sans-serif;
+  font-family: 'nunito', sans-serif;
   font-style: normal;
 }
-
 .red {
-	color: #c70039;
+  color: #c70039;
 }
-
 .footer {
-	color: #fff;
-	padding: 1em;
-	margin-top: 2em;
-	/* background-color: rgba(255, 255, 255, 0.1); */
-	/* border-top: solid 1px rgba(255, 255, 255, 0.397); */
+  color: #fff;
+  padding: 1em;
 }
-
 ::-moz-selection {
   color: white;
-  background: #c70039;
+  background: #e90b4a3b;
 }
-
 ::selection {
   color: white;
-  background: #c70039;
+  background: #e90b4a3b;
 }
-
 img,
 .emoji,
 .noselect,
@@ -82,28 +79,11 @@ br {
   -ms-user-select: none;
   user-select: none;
 }
-/* Transitions */
-
-.fade-enter-active,
-.fade-leave-active {
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: ease;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
-}
-
-/* ----------- */
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
 #nav {
   display: flex;
   justify-content: space-between;
@@ -111,45 +91,33 @@ br {
   padding: 1em 0;
   margin-top: 0em;
 }
-
 #nav .right a {
   margin-left: 1em;
   text-decoration: none;
   font-size: 1.2em;
   margin-right: 1em;
 }
-
 #nav a {
-  /* font-weight: bold; */
   color: #ffffff;
 }
-
 #nav a.router-link-exact-active {
   color: #c70039;
 }
-
 .right {
   display: flex;
 }
-
 .cura {
   width: 8em;
 }
-
 button.cool {
-  /* -webkit-box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6);
-	-moz-box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6);
-	box-shadow: 0px 8px 20px 7px rgba(56, 123, 217, 0.6); */
   box-shadow: 0px 8px 32px rgba(217, 56, 69, 0.6);
   background-color: rgba(217, 56, 69, 0.8);
   color: #fff;
   border: none;
   transform: translateY(-4px);
   transition: 0.5s;
-  font-family: "nunito";
-  /* box-shadow: 30px 30px 59px #cccccc, -30px -30px 59px #ffffff; */
+  font-family: 'nunito';
 }
-
 button.cool:hover {
   transform: translateY(0px);
   -webkit-box-shadow: none;
@@ -157,7 +125,6 @@ button.cool:hover {
   box-shadow: none;
   color: #000;
 }
-
 @media (max-width: 550px) {
   #nav {
     flex-direction: column;

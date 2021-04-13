@@ -1,49 +1,5 @@
 <template>
   <div class="container">
-    <!-- <div class="left_box">
-      <h1>Live Data</h1>
-      <div class="left_box_inside">
-        <h2>
-          <span class="dot"></span> Live
-        </h2>
-        <table>
-          <tr>
-            <th>Jetha Ke Jaanbaaz</th>
-            <td>205/5</td>
-          </tr>
-          <tr>
-            <th>Mehta Ke Marathi</th>
-            <td>205/5</td>
-          </tr>
-        </table>
-      </div>
-      <div class="left_box_inside2">
-        <h3>Recent</h3>
-        <table>
-          <tr>
-            <th>Blaster Babita</th>
-            <td>205/5</td>
-          </tr>
-          <tr>
-            <th>Dandiya Devils</th>
-            <td>205/5</td>
-          </tr>
-        </table>
-      </div>
-      <div class="left_box_inside2">
-        <h3>Upcoming</h3>
-        <table>
-          <tr>
-            <th>Jetha Ke Jaanbaaz</th>
-            <td>205/5</td>
-          </tr>
-          <tr>
-            <th>Dandiya Devils</th>
-            <td>205/5</td>
-          </tr>
-        </table>
-      </div>
-    </div>-->
     <div class="flex-center">
       <div class="featured">
         <div class="flex-center">
@@ -179,9 +135,9 @@
 .cardsd {
   color: #fff;
   background-color: #222;
-  /* width: 80%; */
   border-radius: 1.3em;
   padding: 2em;
+  transition: 0.3s;
 }
 
 .midbox {
